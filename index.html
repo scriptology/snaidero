@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/swipe.js"></script>
+    <script type="text/javascript" src="js/tap.js"></script>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/slider.css" type="text/css">
+
+    <style>
+    /* Swipe 2 required styles */
+
+    .swipe {
+      overflow: hidden;
+      visibility: hidden;
+      position: relative;
+    }
+    .swipe-wrap {
+      overflow: hidden;
+      position: relative;
+    }
+    .swipe-wrap > div {
+      float:left;
+      width:100%;
+      position: relative;
+    }
+
+    /* END required styles */
+    </style>
+
+</head>
+<body>
+<div class="wrap">
+
+    <div class="buttons">
+        <a href="#" rel="1" class="btn btn1"></a>
+        <a href="#" rel="2" class="btn btn2"></a>
+        <a href="#" rel="3" class="btn btn3"></a>
+        <a href="#" rel="4" class="btn btn4"></a>
+        <a href="#" rel="5" class="btn btn5"></a>
+        <a href="#" rel="6" class="btn btn6"></a>
+        <a href="#" rel="7" class="btn btn7"></a>
+        <a href="#" rel="8" class="btn btn8"></a>
+        <a href="#" rel="9" class="btn btn9"></a>
+    </div>
+
+    <div class="popap">
+        <!--<img width="768" src="img/slides/slide1_1.jpg">-->
+        <div class="fulltitle">
+            <a href="#" class="model_name">Venus</a>
+            <a href="#" class="more">подробнее о модели</a>
+        </div>
+        <div id='mySwipe1' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide1_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide1_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide1_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe2' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide2_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide2_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide2_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe3' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide3_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide3_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide3_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe4' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide4_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide4_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide4_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe5' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide5_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide5_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide5_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe6' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide6_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide6_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide6_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe7' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide7_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide7_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide7_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe8' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide8_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide8_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide8_3.jpg">
+                </div>
+            </div>
+        </div>
+        <div id='mySwipe9' style='max-width:768px;margin:0 auto' class='swipe'>
+            <div class='swipe-wrap'>
+                <div>
+                    <img width="768" src="img/slides/slide9_1.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide9_2.jpg">
+                </div>
+                <div>
+                    <img width="768" src="img/slides/slide9_3.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="popap_buttons">
+            <nav>
+
+                <ul id="position">
+                    <li class=""></li>
+                    <li class=""></li>
+                    <li class=""></li>
+                </ul>
+
+            </nav>
+            <div class="corner"></div>
+            <a href="#" rel="1" class="pop_btn1"></a>
+            <a href="#" rel="2" class="pop_btn2"></a>
+            <a href="#" rel="3" class="pop_btn3"></a>
+            <a href="#" rel="4" class="pop_btn4"></a>
+            <a href="#" rel="5" class="pop_btn5"></a>
+            <a href="#" rel="6" class="pop_btn6"></a>
+            <a href="#" rel="7" class="pop_btn7"></a>
+            <a href="#" rel="8" class="pop_btn8"></a>
+            <a href="#" rel="9" class="pop_btn9"></a>
+        </div>
+
+    </div>
+
+    <!--<div class="control">-->
+      <!--<button onclick='mySwipe.prev()'>prev</button>-->
+      <!--<button onclick='mySwipe.next()'>next</button>-->
+    <!--</div>-->
+
+
+</div>
+<script>
+/*
+// pure JS
+var elem = document.getElementById('mySwipe');
+window.mySwipe = Swipe(elem, {
+  // startSlide: 4,
+  // auto: 3000,
+  // continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+  // callback: function(index, element) {},
+  // transitionEnd: function(index, element) {}
+});
+*/
+
+// with jQuery
+// window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+
+</script>
+</body>
+</html>
